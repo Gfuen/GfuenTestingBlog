@@ -6,7 +6,7 @@
 
 
 1. [PACU](#)
-  - [Cloudgoat SSRF Scenario](./PACU/Cloudgoat_SSRF_Scenario.md)
+  - [Cloudgoat EC2_SSRF Scenario](./PACU/Cloudgoat_EC2_SSRF_Scenario.md)
 2. [Bug Bounty](#)
 3. [Hack The Box](#)
 
