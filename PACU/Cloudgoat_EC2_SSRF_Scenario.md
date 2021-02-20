@@ -54,7 +54,7 @@ Enumerate Lambda Access
  
 
 ```
-Receive New IAM User Keys through lambda__enum module
+Receive New IAM User Keys through lambda__enum module which most likely utilized the ListFunctions or GetFunction/GetFunctionConfiguration AWS SDK Call to get our needed AWS Credentials
 ```
  
 
