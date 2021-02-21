@@ -24,10 +24,10 @@ Deploy Cloudgoat Scenario ec2_ssrf after setting up Cloudgoat resources with Ter
 
 
 * Start EC2 SSRF Cloudgoat Scenario
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_cloudgoat_ec2_ssrf.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_cloudgoat_ec2_ssrf.png){:height=150px width=100px}
 
 * Get Solus AWS Keys from Cloudgoat setup
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/getting_set_user_solus_keys.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/getting_set_user_solus_keys.png){:height=150px width=100px}
 
  
 ```
@@ -36,13 +36,13 @@ Set Solus User Keys received from the Cloudgoat Initial Access and Look at their
  
 
 * Start PACU and look at help screen to setup AWS Keys with testuser
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/Pacu_HelpScreen.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/Pacu_HelpScreen.png){:height=150px width=100px}
 
 * Set Solus AWS Keys with PACU set_keys module
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/set_user_solus_keys.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/set_user_solus_keys.png){:height=150px width=100px}
 
 * Confirm Solus Access and permissions
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/Solus_User_AWS_IAM.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/Solus_User_AWS_IAM.png){:height=150px width=100px}
 
  
 ```
@@ -50,7 +50,7 @@ Enumerate Lambda Access
 ```
 
  * Run EC2 Enum Module in PACU
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_lambda_enum.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_lambda_enum.png){:height=150px width=100px}
  
 
 ```
@@ -59,13 +59,13 @@ Receive New IAM User Keys through lambda__enum module which most likely utilized
  
 
 * Search Enumerated Data through PACU for AWS Credentials
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_lambda_enum.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_lambda_enum.png){:height=150px width=100px}
 
 * Check if Lambda Enumerated data is saved in PACU
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/search_services_solus.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/search_services_solus.png){:height=150px width=100px}
 
 * Setup New User with Found AWS Keys and run EC2 Enum Module
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/EC2NewUser.png){:height="50%" width="50%"}
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/EC2NewUser.png){:height=150px width=100px}
 
 
   
