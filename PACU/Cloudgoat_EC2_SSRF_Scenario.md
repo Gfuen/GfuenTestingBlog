@@ -26,7 +26,7 @@ Deploy Cloudgoat Scenario ec2_ssrf after setting up Cloudgoat resources with Ter
 * Start EC2 SSRF Cloudgoat Scenario
   
 
-![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_cloudgoat_ec2_ssrf.png)<!-- .element height="200px" width="200px" -->
+![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/run_cloudgoat_ec2_ssrf.png)
 
 * Get Solus AWS Keys from Cloudgoat setup
 ![alt text](../Pictures/PACU/Cloudgoat_EC2_SSRF/getting_set_user_solus_keys.png)
